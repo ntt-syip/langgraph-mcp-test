@@ -16,7 +16,7 @@ model = ChatOpenAI(model="gpt-4o")  # 必要に応じて "gpt-3.5-turbo" 等に�
 # MCPサーバー(math_server.py)を標準入出力経由で起動する設定
 server_params = StdioServerParameters(
     command="python",
-    args=["./math_server.py"],
+    args=["./handson/math_server.py"],
 )
 
 
